@@ -16,14 +16,6 @@
 
 .search__input {
   flex: 1;
-  border: 1px solid var(--colour-background-light);
-  border-radius: var(--border-radius-s);
-  background: var(--colour-background-light);
-  color: var(--colour-text-dark);
-  padding: var(--spacing-l);
-  font-size: var(--font-size-body);
-  font-family: var(--font-family-body);
-  line-height: 1.5;
 }
 
 .search__submit {
@@ -45,5 +37,3 @@
   width: 100%;
   margin: auto;
 }
-
-

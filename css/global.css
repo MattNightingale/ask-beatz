@@ -145,3 +145,18 @@ p {
 .search__loading.is-loading {
   display: block;
 }
+
+/* Input Styles */
+input[type="text"],
+textarea,
+.search__input,
+.ask__input {
+  border: 1px solid var(--colour-background-light);
+  border-radius: var(--border-radius-s);
+  background: var(--colour-background-light);
+  color: var(--colour-text-dark);
+  padding: var(--spacing-l);
+  font-size: var(--font-size-body);
+  font-family: var(--font-family-body);
+  line-height: 1.5;
+}
