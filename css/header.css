@@ -1,13 +1,11 @@
 /* Header */
 .header {
-  background: linear-gradient(
-    to bottom left,
-    var(--colour-primary),
-    var(--colour-secondary)
-  );
+  background-image: url("../images/clubscene2.svg");
+  background-size: cover;
   color: var(--colour-text-light);
   padding-top: var(--spacing-xl);
   padding-bottom: var(--spacing-xxl);
+  border-bottom: 1px solid var(--colour-text-light);
 }
 
 .header__content {
@@ -25,15 +23,11 @@
   .header__content {
     flex-direction: row;
   }
-
-
 }
 
-@media (max-width: 780px) {
-   .logo__image {
+@media (max-width: 1023px) {
+  .logo__image {
     width: 10rem;
-    display: block;
-    box-sizing: border-box;
   }
 }
 

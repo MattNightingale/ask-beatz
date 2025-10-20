@@ -5,8 +5,13 @@
   margin-right: auto;
   margin-top: calc(-1 * var(--spacing-xl));
   background: var(--colour-background-white);
-  border-radius: var(--border-radius-l);
   box-shadow: var(--box-shadow);
+}
+
+@media (min-width: 768px) {
+  .main {
+    border-radius: var(--border-radius-l);
+  }
 }
 
 .main__title {
@@ -24,7 +29,7 @@
   gap: var(--spacing-l);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .main__cards {
     display: flex;
     flex-direction: row;
@@ -39,7 +44,7 @@
   text-align: center;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .main__textleft {
     text-align: center;
   }
@@ -51,7 +56,7 @@
   margin: var(--spacing-m);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .divider {
     margin-bottom: var(--spacing-l);
   }
@@ -64,7 +69,7 @@
   box-shadow: var(--box-shadow);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .main__image img {
     width: var(--image-width-xxl);
     height: var(--image-height-xl);
@@ -74,19 +79,11 @@
 .main__button {
   background-color: var(--colour-primary);
   font-size: var(--font-size-body);
-  color: var(--colour-background-white);
+  color: var(--colour-text-light);
   padding: var(--padding-xl);
   border: none;
   border-radius: var(--border-radius-s);
   box-shadow: var(--box-shadow);
-  text-decoration: none;
-  cursor: pointer;
-  transition: all 0.25s;
-}
-
-.main__button a {
-  color: var(--colour-background-white);
-  text-decoration: none;
 }
 
 .main__button:hover {
