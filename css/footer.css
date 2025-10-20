@@ -7,12 +7,13 @@
   margin-right: auto;
   max-width: var(--width-max);
   padding: var(--spacing-l);
-  color: var(--colour-text-grey);
+  color: var(--colour-text-light);
+  background: transparent;
 }
 .footer__link a{
   text-decoration: none;
   transition: color 0.3s;
-  color: var(--colour-text-grey);
+  color: var(--colour-text-light);
 }
 
 .footer__link a:hover {
