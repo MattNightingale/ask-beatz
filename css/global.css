@@ -2,8 +2,8 @@
 
 /* Variables */
 :root {
-  --colour-primary: #7f2fee;
-  --colour-secondary: #ff0080;
+  --colour-primary: #119DA4;
+  --colour-secondary: #00000065;
   --colour-background-white: white;
   --colour-background-light: #e7e7e7;
   --colour-background-dark: #7d7d7d;
@@ -67,7 +67,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  background-color: #1b0b36;
+  background-color: var(--colour-background-light);
 }
 
 /* Text Styles */
