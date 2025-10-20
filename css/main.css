@@ -8,6 +8,12 @@
   box-shadow: var(--box-shadow);
 }
 
+@media (min-width: 768px) {
+  .main {
+    border-radius: var(--border-radius-l);
+  }
+}
+
 .main__title {
   text-align: center;
 }
