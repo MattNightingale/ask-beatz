@@ -5,11 +5,20 @@
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+
   max-width: var(--width-max);
   padding: var(--spacing-l);
   color: var(--colour-text-grey);
-  background: transparent;
+  background: #112336;
 }
+
+@media (min-width: 768px) {
+  .footer {
+    border-radius: 0 0 var(--border-radius-l) var(--border-radius-l);
+    margin-bottom: var(--spacing-l);
+  }
+}
+
 .footer__link a{
   text-decoration: none;
   color: var(--colour-text-grey);
@@ -17,7 +26,7 @@
 
 .footer__link a:hover {
   transition: color 0.3s;
-  color: var(--colour-text-dark);
+  color: var(--colour-text-light);
 }
 
 .footer__link--long {
