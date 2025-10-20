@@ -7,16 +7,17 @@
   margin-right: auto;
   max-width: var(--width-max);
   padding: var(--spacing-l);
-  color: var(--colour-text-light);
+  color: var(--colour-text-grey);
   background: transparent;
 }
 .footer__link a{
   text-decoration: none;
-  color: var(--colour-text-light);
+  color: var(--colour-text-grey);
 }
 
 .footer__link a:hover {
-  text-decoration: underline;
+  transition: color 0.3s;
+  color: var(--colour-text-dark);
 }
 
 .footer__link--long {
