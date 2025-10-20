@@ -25,6 +25,8 @@
 }
 
 .logo__image {
+  margin-top: 35px;
+  margin-bottom: 20px;
   width: 10rem;
 }
 
@@ -48,6 +50,7 @@
   .header__nav {
     margin-top: 0;
   }
+
 }
 
 .header__link {
@@ -76,6 +79,7 @@
 /* header titles */
 
 .header__titles {
+  
   padding-left: var(--spacing-l);
   padding-right: var(--spacing-l);
 }
