@@ -18,63 +18,55 @@
   background-color: var(--colour-text-light);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header__content {
     flex-direction: row;
     justify-content: center;
   }
-  
-    .header__hamburger {
-        display: block;
-        right: 20px;
-        position: absolute;
-    }
 
-    .header__hamburger.active .hamburger__bar:nth-child(3) {
-        opacity: 0;
-    }
+  .header__hamburger {
+    display: block;
+    right: 20px;
+    position: absolute;
+  }
 
-    .header__hamburger.active .hamburger__bar:nth-child(2) {
-        transform: translateY(1.1rem) rotate(45deg);
-    }
+  .header__hamburger.active .hamburger__bar:nth-child(3) {
+    opacity: 0;
+  }
 
-    .header__hamburger.active .hamburger__bar:nth-child(4) {
-        transform: translateY(-1.1rem) rotate(-45deg);
-    }
+  .header__hamburger.active .hamburger__bar:nth-child(2) {
+    transform: translateY(1.1rem) rotate(45deg);
+  }
 
-    .header__nav.active {
-        padding-bottom: 0;
-        position: absolute;
-        right: 15px;
-        display: flex;
-        border-bottom: 1px solid var(--primary-c);
-        border-left: 1px solid var(--primary-c);
-        width: 85px;
-        
-    }
+  .header__hamburger.active .hamburger__bar:nth-child(4) {
+    transform: translateY(-1.1rem) rotate(-45deg);
+  }
 
-    .header__nav {
-        position: absolute;
-        right: -100%;
-        display: none;
-        width: 85px;
-        margin-top: 0;
-        flex-direction: column;
-        width: 8rem;
-        text-align: center;
-        background-color: var(--primary-tint-c);
-        z-index: 100;
-       
-        
-    }
+  .header__nav.active {
+    padding-bottom: 0;
+    position: absolute;
+    right: 15px;
+    display: flex;
+    border-bottom: 1px solid var(--primary-c);
+    border-left: 1px solid var(--primary-c);
+    width: 85px;
+  }
 
-    .header__link {
-        padding: 0;
-    }
-}
-
-@media screen and (max-width: 780px) {
   .header__nav {
+    position: absolute;
+    right: -100%;
+    display: none;
+    width: 85px;
+    margin-top: 0;
+    flex-direction: column;
+    width: 8rem;
+    text-align: center;
+    background-color: var(--primary-tint-c);
+    z-index: 100;
     top: 120px;
+  }
+
+  .header__link {
+    padding: 0;
   }
 }
