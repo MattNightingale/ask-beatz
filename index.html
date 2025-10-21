@@ -1,80 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Ask Beatz</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script type="module" defer src="./js/script.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home | Ask Beatz</title>
-  <link rel="stylesheet" href="./css/style.css" />
-  <script type="module" defer src="./js/script.js"></script>
-</head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo">
+          <img
+            src="../images/logo_askbeatz.png"
+            class="logo__image"
+            alt="Ask Beatz logo"
+          />
+        </div>
+        <div class="header__hamburger">
+          <h4>MENU</h4>
+          <span class="hamburger__bar"></span>
+          <span class="hamburger__bar"></span>
+          <span class="hamburger__bar"></span>
+        </div>
+        <nav class="header__nav">
+          <a href="./" class="header__link header__link--active">Home</a>
+          <a href="./about/" class="header__link">About</a>
+          <a href="./ask/" class="header__link">Ask</a>
+          <a href="./shop/" class="header__link">Shop</a>
+        </nav>
+      </div>
+      <div class="header__titles">
+        <h1 class="header__title">Welcome to Ask Beatz</h1>
+        <p class="header__subtitle">Using the latest in AI technology</p>
+      </div>
+    </header>
+    <main class="main">
+      <section class="main__cards">
+        <div class="main__textleft">
+          <h4 class="main__title">Phonics fit for your feelings</h4>
+          <p>
+            Know exactly how you feel but still can't decide on what you want to
+            listen to? Let our cutting edge AI playlist your mood!
+          </p>
 
-<body>
-  <header class="header">
-    <div class="header__content">
-      <div class="header__logo">
-        <img src="../images/logo_askbeatz.png" class="logo__image" alt="Ask Beatz logo" />
-      </div>
-      <div class="header__hamburger">
-        <h4>MENU</h4>
-        <span class="hamburger__bar"></span>
-        <span class="hamburger__bar"></span>
-        <span class="hamburger__bar"></span>
-      </div>
-      <nav class="header__nav">
-        <a href="./" class="header__link header__link--active">Home</a>
-        <a href="./about/" class="header__link">About</a>
-        <a href="./ask/" class="header__link">Ask</a>
-        <a href="./shop/" class="header__link">Shop</a>
-      </nav>
-    </div>
-    <div class="header__titles">
-      <h1 class="header__title">Welcome to Ask Beatz</h1>
-      <p class="header__subtitle">Using the latest in AI technology</p>
-    </div>
-  </header>
-  <main class="main">
-    <section class="main__cards">
-      <div class="main__textleft">
-        <h4 class="main__title">Phonics fit for your feelings</h4>
-        <h4 class="main_subtitle">Robotic recommendations</h4>
-        <p>
-          Know exactly how you feel but still can't decide on what you want to listen to? Let our cutting edge AI playlist your mood! Discover new music from artists your own brain would never think to recommend. We promise there'll be no subliminal messaging. Probably. 
-        </p>
-      </div>
-      <div class="main__image">
-        <img src="./images/future-of-aI.jpg" alt="AI Music" class="main__image" />
-      </div>
-    </section>
-    <hr class="divider" />
-    <section class="main__cards">
-      <div class="main__textleft">
-        <p>
-          Ask the DJI for cutting edge playlist suggestions
-        </p>
-        <button class="main__button">
-          <a href="./ask/">Ask Beatz</a> 
-        </button>
-      </div>
-      <div class="main__textright">
-        <p>
-          Visit our shop and buy some of our products so we can eat food this
-          month
-        </p>
-        <button class="main__button">
-          <a href="./shop/">Vist Our Shop</a> 
+          <p>
+            Discover new music from artists your own brain would never think to
+            recommend.
+          </p>
+          <p>We promise there'll be no subliminal messaging. Probably.</p>
+        </div>
+        <div class="main__image">
+          <img
+            src="./images/future-of-aI.jpg"
+            alt="AI Music"
+            class="main__image"
+          />
+        </div>
+      </section>
+      <hr class="divider" />
+      <section class="main__cards">
+        <div class="main__textleft">
+          <p>Ask the DJI for cutting edge playlist suggestions</p>
+          <button class="main__button">
+            <a href="./ask/">Ask Beatz</a>
           </button>
-      </div>
-    </section>
-    <hr />
-  </main>
-  <footer class="footer">
-    <ul class="footer__links">
-      <li class="footer__link footer__link--short"><a href="#">T&Cs</a></li>
-      <li class="footer__link footer__link--long"><a href="#">Terms and Conditions</a></li>
-      <li class="footer__link"><a href="#">Cookies</a></li>
-    </ul>
-    <p class="footer__copyright">&copy; 2025</p>
-  </footer>
-</body>
-</htm
+        </div>
+        <div class="main__textright">
+          <p>
+            Visit our shop and buy some of our products so we can eat food...
+          </p>
+          <button class="main__button">
+            <a href="./shop/">Visit Our Shop</a>
+          </button>
+        </div>
+      </section>
+      <hr />
+    </main>
+    <footer class="footer">
+      <ul class="footer__links">
+        <li class="footer__link footer__link--short"><a href="#">T&Cs</a></li>
+        <li class="footer__link footer__link--long">
+          <a href="#">Terms and Conditions</a>
+        </li>
+        <li class="footer__link"><a href="#">Cookies</a></li>
+      </ul>
+      <p class="footer__copyright">&copy; 2025</p>
+    </footer>
+  </body>
+</html>
