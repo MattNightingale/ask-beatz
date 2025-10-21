@@ -13,11 +13,11 @@
 .ask__input-wrapper {
   position: relative;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .ask__input {
-  width: 80%;
+  width: 100%;
   min-height: 10rem;
 }
 
@@ -34,12 +34,12 @@
   cursor: pointer;
   opacity: 1;
   transition: opacity 0.25s;
-  padding: 0.3rem;
-  margin: 0.1rem;
+  padding: 0.6rem;
+  margin: 0.3rem;
 }
 
 .suggestion__buttons {
-  margin-left: 5%;
+  
   right: var(--spacing-l);
   top: var(--spacing-l);
   display: flex;
@@ -71,6 +71,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .ask__input-wrapper {
+    flex-direction: row;
+  }
+
+  .ask__input {
+    width: 70%;
+  }
+
+  .suggestion__buttons {
+    margin-left: 5%;
   }
 }
 
