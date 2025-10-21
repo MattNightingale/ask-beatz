@@ -91,7 +91,7 @@
   text-decoration: none;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .main__button {
     padding: var(--padding-xxl);
     margin-bottom: var(--spacing-l);
