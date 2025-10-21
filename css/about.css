@@ -73,7 +73,7 @@
 }
 
 .about__text p {
-  color: var(--colour-text-light);
+  color: var(--colour-text-dark);
   font-size: var(--font-size-small);
   line-height: var(--line-height-s);
   width: var(--width-m);
