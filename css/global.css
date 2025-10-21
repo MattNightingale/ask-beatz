@@ -4,7 +4,7 @@
 :root {
   --colour-primary: #7f2fee;
   --colour-secondary: #ff0080;
-  --colour-background-white: white;
+  --colour-background-white: #ffffff;
   --colour-background-light: #e7e7e7;
   --colour-background-dark: #7d7d7d;
   --colour-text-light: #ffffff;
@@ -29,14 +29,34 @@
 
   --font-size-heading: 48px;
   --font-size-subheading: 24px;
-  --font-size-body: 16px;
   --font-size-small: 12px;
+  --font-size-body: 16px;
+  --font-size-medium: 20px;
+  --font-size-large: 24px;
+  --font-size-xlarge: 28px;
+  --font-size-xlarge: 32px;
   --font-weight-bold: bold;
   --font-family-body: "Roboto", sans-serif;
 
   --border-radius-s: 5px;
   --border-radius-m: 10px;
   --border-radius-l: 20px;
+
+  --border-width-xs: 1px;
+  --border-width-s: 2px;
+  --border-width-m: 3px;
+  --border-width-l: 4px;
+  --border-width-xl: 6px;
+
+  --border-style-solid: solid;
+  --border-style-dashed: dashed;
+  --border-style-dotted: dotted;
+  --border-style-none: none;
+
+  --border-primary: 2px solid var(--colour-primary);
+  --border-light: 2px solid var(--colour-background-light);
+  --border-dark: 2px solid var(--colour-background-dark);
+  --border-dashed: 4px dashed rgba(0, 0, 0, 0.1);
 
   --image-height-xs: 80px;
   --image-height-s: 120px;
@@ -51,6 +71,14 @@
   --image-width-l: 250px;
   --image-width-xl: 300px;
   --image-width-full: 100%;
+
+  --margin-xs: 8px;
+  --margin-s: 12px;
+  --margin-m: 20px;
+  --margin-l: 40px;
+  --margin-xl: 80px;
+  --margin-xxl: 400px;
+  --margin-auto: 0 auto;
 
   --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
