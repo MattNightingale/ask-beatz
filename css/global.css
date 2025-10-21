@@ -3,10 +3,9 @@
 /* Variables */
 :root {
   --colour-primary: #119da4;
-  --colour-secondary: #00000065;
+  --colour-shadow: #00000065;
   --colour-background-white: white;
   --colour-background-light: #e7e7e7;
-  --colour-background-dark: #7d7d7d;
   --colour-text-light: #ffffff;
   --colour-text-grey: #a8a8a8;
   --colour-text-dark: #1b1c22;
@@ -15,83 +14,11 @@
   --border-radius-m: 10px;
   --border-radius-l: 20px;
 
-  --border-style-dashed: dashed;
-  --border-dashed: 4px dashed rgba(0, 0, 0, 0.1);
-
-  --border-width-s: 2px;
-  --border-width-m: 3px;
-  --border-width-l: 4px;
-  --border-width-xl: 6px;
-  --border-width-xs: 1px;
-
-  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --box-shadow: 0px 3px 3px var(--colour-shadow);
 
   --font-family-body: "Roboto", sans-serif;
   --font-size-body: 16px;
-  --font-size-heading: 48px;
-  --font-size-s: 12px;
-  --font-size-m: 20px;
   --font-size-subheading: 24px;
-  --font-size-l: 26px;
-  --font-size-xl: 28px;
-  --font-size-xxl: 32px;
-  --font-weight-bold: bold;
-
-  --height-xs: 100px;
-  --height-s: 200px;
-  --height-m: 300px;
-  --height-l: 400px;
-  --height-xl: 500px;
-  --height-xxl: 600px;
-  --height-xxxl: 690px;
-  --height-full: 100%;
-
-  --image-height-xs: 80px;
-  --image-height-s: 120px;
-  --image-height-m: 150px;
-  --image-height-l: 200px;
-  --image-height-xl: 250px;
-  --image-height-xxl: 300px;
-  --image-height-xxxl: 350px;
-  --image-height-xxxxl: 400px;
-
-  --image-width-xs: 100px;
-  --image-width-s: 150px;
-  --image-width-l: 250px;
-  --image-width-m: 200px;
-  --image-width-xl: 300px;
-  --image-width-full: 100%;
-
-  --line-height-xs: 16px;
-  --line-height-s: 20px;
-  --line-height-m: 24px;
-  --line-height-l: 28px;
-  --line-height-xl: 32px;
-  --line-height-xxl: 36px;
-  --line-height-xxxl: 40px;
-  --line-height-xxxxl: 48px;
-  --line-height-xxxxxl: 64px;
-
-  --margin-auto: 0 auto;
-
-  --margin-xs: 8px;
-  --margin-s: 12px;
-  --margin-m: 20px;
-  --margin-l: 40px;
-  --margin-xl: 80px;
-  --margin-xxl: 120px;
-  --margin-xxxl: 190px;
-  --margin-xxxxl: 400px;
-
-  --padding-horizontal: 0 50px;
-  --padding-xs: 4px 8px;
-  --padding-s: 8px 12px;
-  --padding-l: 16px 32px;
-  --padding-m: 12px 20px;
-  --padding-xl: 20px 40px;
-
-  --padding-xxl: 24px 48px;
-  --padding-zero: 0;
 
   --spacing-xs: 8px;
   --spacing-s: 10px;
@@ -100,22 +27,7 @@
   --spacing-xl: 40px;
   --spacing-xxl: 80px;
 
-  --transition-fast: all 0.25s;
-  --transition-medium: all 0.3s;
-  --transition-slow: all 0.5s;
-  --transition-opacity: opacity 0.25s;
-  --transition-ease: all 0.3s ease;
-
-  --width-xs: 100px;
-  --width-s: 200px;
-  --width-l: 400px;
-  --width-m: 300px;
   --width-max: 800px;
-  --width-xl: 500px;
-  --width-xxl: 650px;
-  --width-xxxl: 800px;
-  --width-xxxxl: 1000px;
-  --width-full: 100%;
 }
 
 *,

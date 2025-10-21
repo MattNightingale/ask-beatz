@@ -8,13 +8,13 @@
 /* tab button */
 
 .about__button {
-  transition: var(--transition-medium);
+  transition: all 0.3s;
   border-top-left-radius: var(--border-radius-m);
   border-top-right-radius: var(--border-radius-m);
   border: none;
   border-bottom: none;
   color: var(--colour-text-dark);
-  padding: var(--padding-m);
+  padding: var(--spacing-m) var(--spacing-l);
 }
 
 .about__button:hover {
