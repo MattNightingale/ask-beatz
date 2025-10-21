@@ -80,7 +80,7 @@
 }
 
 .ask__char-count.has-error {
-  color: var(--colour-secondary);
+  color: var(--colour-shadow);
 }
 
 .ask__loading {

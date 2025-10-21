@@ -5,15 +5,12 @@
   margin-right: auto;
   margin-top: calc(-1 * var(--spacing-xl));
   background: var(--colour-background-white);
-  box-shadow: var(--box-shadow);
 }
 
 @media (min-width: 768px) {
   .main {
     border-radius: var(--border-radius-l) var(--border-radius-l) 0 0;
   }
-
-  
 }
 
 .main__title {
@@ -29,24 +26,13 @@
   flex-direction: column;
   align-items: center;
   gap: var(--spacing-l);
-}
-
-.main__cards p {
-  max-width: 70%;
-  text-align: center;
-  margin: 10px auto;
+  padding: var(--spacing-s);
 }
 
 @media (min-width: 1024px) {
   .main__cards {
     flex-direction: row;
-    margin-right: var(--spacing-l);
   }
-}
-
-.main__textleft {
-  max-width: 90%;
-  text-align: center;
 }
 
 .divider {
@@ -61,56 +47,36 @@
   }
 }
 
-.main__image img {
-  width: var(--image-width-xl);
-  height: var(--image-height-l);
+.main__image {
+  width: 100%;
   border-radius: var(--border-radius-m);
-  box-shadow: var(--box-shadow);
 }
 
 @media (min-width: 1024px) {
-  .main__image img {
-    width: var(--image-width-xxl);
-    height: var(--image-height-xl);
-  }
-
-  .main__textleft {
-    width: 50%;
-  }
-
+  .main__image,
+  .main__textleft,
   .main__textright {
-    width: 50%;
+    flex: 1;
   }
 }
 
 .main__button {
   background-color: var(--colour-primary);
-  font-size: var(--font-size-body);
   color: var(--colour-text-light);
-  padding: var(--padding-xl);
-  border: none;
+  font-size: var(--font-size-body);
+  padding: var(--spacing-m) var(--spacing-m);
+  border: 1px solid var(--colour-primary);
   border-radius: var(--border-radius-s);
   box-shadow: var(--box-shadow);
   text-decoration: none;
-  width: 200px;
 }
 
 .main__button:hover {
   background-color: var(--colour-background-white);
+  color: var(--colour-primary);
 }
 
 .main__button a {
   text-decoration: none;
-  color: var(--colour-text-light);
-}
-.main__button:hover a {
-  color: var(--colour-primary);
-  text-decoration: none;
-}
-
-@media (min-width: 1024px) {
-  .main__button {
-    padding: var(--padding-xxl);
-    margin-bottom: var(--spacing-l);
-  }
+  color: inherit;  
 }

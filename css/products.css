@@ -20,7 +20,7 @@
   border: 1px solid var(--colour-background-light);
   border-radius: var(--border-radius-l);
   width: 80%;
-  box-shadow: 0px 3px 3px var(--colour-secondary)
+  box-shadow: var(--box-shadow);
 }
 
 .products__item:hover {
@@ -38,8 +38,6 @@
     width: 31%;
   }
 }
-
-
 
 .products__item-image {
   width: 100%;
