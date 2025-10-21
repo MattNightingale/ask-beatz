@@ -10,7 +10,7 @@
 
 @media (min-width: 768px) {
   .main {
-    border-radius: var(--border-radius-l);
+    border-radius: var(--border-radius-l) var(--border-radius-l) 0 0;
   }
 }
 
@@ -31,10 +31,7 @@
 
 @media (min-width: 1024px) {
   .main__cards {
-    display: flex;
     flex-direction: row;
-    align-items: center;
-    gap: var(--spacing-l);
     margin-right: var(--spacing-l);
   }
 }
@@ -42,12 +39,6 @@
 .main__textleft {
   max-width: 50%;
   text-align: center;
-}
-
-@media (min-width: 1024px) {
-  .main__textleft {
-    text-align: center;
-  }
 }
 
 .divider {
