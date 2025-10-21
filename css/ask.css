@@ -67,16 +67,30 @@
   margin-top: var(--spacing-l);
 }
 
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
 @media (min-width: 768px) {
   .ask__footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
   }
+
+  .ask__button-ask {
+  min-width: 150px;
+}
 }
 
 .ask__char-count {
   font-style: italic;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
 }
 
 .ask__char-count.has-error {
