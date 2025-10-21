@@ -33,10 +33,10 @@
   --font-family-body: "Roboto", sans-serif;
   --font-size-body: 16px;
   --font-size-heading: 48px;
-  --font-size-l: 26px;
-  --font-size-m: 20px;
   --font-size-s: 12px;
+  --font-size-m: 20px;
   --font-size-subheading: 24px;
+  --font-size-l: 26px;
   --font-size-xl: 28px;
   --font-size-xxl: 32px;
   --font-weight-bold: bold;
@@ -56,6 +56,8 @@
   --image-height-l: 200px;
   --image-height-xl: 250px;
   --image-height-xxl: 300px;
+  --image-height-xxxl: 350px;
+  --image-height-xxxxl: 400px;
 
   --image-width-xs: 100px;
   --image-width-s: 150px;
@@ -76,12 +78,14 @@
 
   --margin-auto: 0 auto;
 
-  --margin-m: 20px;
+  --margin-xs: 8px;
   --margin-s: 12px;
+  --margin-m: 20px;
   --margin-l: 40px;
   --margin-xl: 80px;
-  --margin-xs: 8px;
-  --margin-xxl: 400px;
+  --margin-xxl: 120px;
+  --margin-xxxl: 190px;
+  --margin-xxxxl: 400px;
 
   --padding-horizontal: 0 50px;
   --padding-xs: 4px 8px;
@@ -99,6 +103,12 @@
   --spacing-l: 20px;
   --spacing-xl: 40px;
   --spacing-xxl: 80px;
+
+  --transition-fast: all 0.25s;
+  --transition-medium: all 0.3s;
+  --transition-slow: all 0.5s;
+  --transition-opacity: opacity 0.25s;
+  --transition-ease: all 0.3s ease;
 
   --width-xs: 100px;
   --width-s: 200px;
