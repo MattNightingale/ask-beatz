@@ -22,13 +22,13 @@ class Tabs {
       `.about__content[data-tab-content="${aboutID}"]`
     );
     this.aboutButtons.forEach((button) => {
-      button.classList.remove("currently-selected-tab");
+      button.classList.remove("about__button--active");
     });
     this.aboutContents.forEach((content) => {
-      content.classList.remove("currently-selected-tab");
+      content.classList.remove("about__content--active");
     });
-    clickedButton.classList.add("currently-selected-tab");
-    detailsElement.classList.add("currently-selected-tab");
+    clickedButton.classList.add("about__button--active");
+    detailsElement.classList.add("about__content--active");
   }
 }
 
