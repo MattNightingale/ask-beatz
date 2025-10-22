@@ -69,6 +69,7 @@
   border-radius: var(--border-radius-s);
   box-shadow: var(--box-shadow);
   text-decoration: none;
+  width: 10rem;
 }
 
 .main__button:hover {
